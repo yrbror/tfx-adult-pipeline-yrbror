@@ -1,0 +1,18 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "income"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "/mnt/c/Users/laptop anyar/Downloads/tfx_adult_pipeline/yrbror-pipeline/artifacts/Trainer/model/32/Format-Serving"
+  }
+}

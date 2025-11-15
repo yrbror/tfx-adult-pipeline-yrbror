@@ -1,0 +1,35 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "income"
+      }
+    ],
+    "slicingSpecs": [
+      {}
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "BinaryAccuracy",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.75
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.46.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "/mnt/c/Users/laptop anyar/Downloads/tfx_adult_pipeline/yrbror-pipeline/artifacts/Trainer/model/43/Format-Serving"
+  }
+}

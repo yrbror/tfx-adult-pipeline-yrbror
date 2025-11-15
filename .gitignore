@@ -1,0 +1,28 @@
+cat > .gitignore << 'EOF'
+# virtual env
+tfx-venv/
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# TFX artifacts & metadata (gede & banyak banget)
+yrbror-pipeline/artifacts/
+yrbror-pipeline/metadata/
+
+# data mentah (opsional)
+yrbror-pipeline/data/*.csv
+
+# big binary & arsip
+*.zip
+*.tar
+*.tar.gz
+
+# Prometheus data (kalau ada)
+monitoring/data/
+monitoring/wal/
+
+# VSCode
+.vscode/
+EOF

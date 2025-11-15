@@ -1,0 +1,10 @@
+tensorflow==2.14.1
+tfx==1.15.1
+tensorflow-transform==1.15.0
+tensorflow-data-validation==1.15.0
+tensorflow-model-analysis==0.45.0
+apache-beam[gcp]==2.48.0
+pyarrow==10.0.1
+protobuf<4
+ipykernel
+jupyter
